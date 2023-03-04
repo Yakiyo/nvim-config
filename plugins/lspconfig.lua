@@ -12,7 +12,7 @@ for _, lsp in ipairs(servers) do
   }
 end
 
-lspconfig['rust-analyzer'].setup({
+lspconfig['rust_analyzer'].setup({
   on_attach = on_attach,
   capabilities = capabilities,
   settings = {
