@@ -7,6 +7,9 @@ M.treesitter = {
     "html",
     "css",
     "javascript",
+    "typescript",
+    "rust",
+    "dart",
     "c",
     "markdown",
     "markdown_inline",
@@ -30,6 +33,9 @@ M.mason = {
     "html-lsp",
     "typescript-language-server",
     "deno",
+
+    -- others
+    "rust-analyzer",
   },
 }
 
@@ -37,6 +43,7 @@ M.mason = {
 M.nvimtree = {
   git = {
     enable = true,
+    ignore = false,
   },
 
   renderer = {
