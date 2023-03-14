@@ -7,10 +7,18 @@ M.treesitter = {
     "html",
     "css",
     "javascript",
-    "c",
     "typescript",
     "rust",
     "dart",
+    "c",
+    "markdown",
+    "markdown_inline",
+  },
+  indent = {
+    enable = true,
+    disable = {
+      "python"
+    },
   },
 }
 
@@ -25,7 +33,9 @@ M.mason = {
     "html-lsp",
     "typescript-language-server",
     "deno",
-    "rust-analyzer"
+
+    -- others
+    "rust-analyzer",
   },
 }
 
@@ -44,6 +54,10 @@ M.nvimtree = {
       },
     },
   },
+}
+
+M.nvdash = {
+  load_on_startup = true,
 }
 
 return M
