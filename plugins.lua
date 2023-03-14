@@ -48,11 +48,22 @@ local plugins = {
   --   enabled = false
   -- },
 
-  -- Uncomment if you want to re-enable which-key
-  -- {
-  --   "folke/which-key.nvim",
-  --   enabled = true,
-  -- },
+  {
+    "folke/which-key.nvim",
+    enabled = true,
+  },
+
+  {
+    "andweeb/presence.nvim",
+    enabled = true,
+    lazy = false,
+  },
+
+  {
+    "wakatime/vim-wakatime",
+    enabled = true,
+    lazy = false,
+  }
 }
 
 return plugins
